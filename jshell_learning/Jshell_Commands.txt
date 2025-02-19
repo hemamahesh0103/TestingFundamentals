@@ -1,0 +1,4 @@
+1. To Open Jshell, use command JShell
+2. To Close Jshell, /exit or ctrl + D
+3. To Clear Jshell, ctrl + L
+4. Once you close JShell and re-open all the content will be removed/erased from memory.
