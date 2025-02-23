@@ -1,6 +1,4 @@
 i+j
-int a=5;
-int b=10;
 int c=a%b;
 int i=6;
  int j=8;
@@ -18,3 +16,9 @@ String greeting(){
     return "Hello";
 }
 greeting()
+int a=10, b=20;
+int a=10, b=20;
+int tem =a;
+a=b;
+b=tem;
+System.out.println("After swapping: a=" +a+ ", b=" +b);
