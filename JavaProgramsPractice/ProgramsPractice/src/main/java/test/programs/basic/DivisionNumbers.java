@@ -1,6 +1,6 @@
 package test.programs.basic;
 
-public class DivisionTest {
+public class DivisionNumbers {
 
     float div(float a, float b) {
 
