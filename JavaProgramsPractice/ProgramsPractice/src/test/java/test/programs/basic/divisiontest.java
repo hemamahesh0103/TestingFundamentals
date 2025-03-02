@@ -8,7 +8,7 @@ public class divisiontest {
     DivisionTest divi = new DivisionTest();
 
     @Test
-     void DivisionNumbers() {Assert.assertEquals(divi.div(10,2), 5.0);
+     void testDivisiontwoNumbers() {Assert.assertEquals(divi.div(10,2), 5.0);
     }
 
 
