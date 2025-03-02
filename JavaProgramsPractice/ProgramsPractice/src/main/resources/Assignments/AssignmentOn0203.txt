@@ -1,0 +1,17 @@
+1. under src/main/java/test.programs
+create a new package called strings.
+
+2. create a File to check if two strings are palindrome
+
+3. under src/test/java/test.programs
+create a new packaged called strings
+
+Note: name of package must be always small characters.
+
+4. under test create test cases along with corner test cases.
+
+https://www.geeksforgeeks.org/java-string-exercise/
+https://www.knowprogram.com/java/string-programs-in-java/
+
+No use of main() method at all.
+and I need comments on each and every line of program.
