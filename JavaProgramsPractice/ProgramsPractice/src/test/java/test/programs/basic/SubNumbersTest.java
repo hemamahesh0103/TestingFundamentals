@@ -10,16 +10,16 @@ public class SubNumbersTest {
     @Test
 
 
-    void SubractTwoPositiveNumbers() { Assert.assertEquals(subNumbers.sub(20,10), 10);}
+    void testSubractTwoPositiveNumbers() { Assert.assertEquals(subNumbers.sub(20,10), 10);}
 
     @Test
 
-    void SubtractNegativeNumbers() { Assert.assertEquals(subNumbers.sub(-10,70), -80);}
+    void testSubtractNegativeNumbers() { Assert.assertEquals(subNumbers.sub(-10,70), -80);}
     @Test
-    void SubtractTwoNegativeNumbers() {Assert.assertEquals(subNumbers.sub(-20,-10),-10);}
+    void testSubtractTwoNegativeNumbers() {Assert.assertEquals(subNumbers.sub(-20,-10),-10);}
 
     @Test
-    void SubtractNumbersZero() {Assert.assertEquals(subNumbers.sub(0,8),-8);}
+    void testSubtractNumbersZero() {Assert.assertEquals(subNumbers.sub(0,8),-8);}
 
 
 }
