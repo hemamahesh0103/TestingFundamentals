@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class SubNumbersTest {
 
-    Subtracttest subNumbers = new Subtracttest();
+    SubtractNumbers subNumbers = new SubtractNumbers();
 
     @Test
 
