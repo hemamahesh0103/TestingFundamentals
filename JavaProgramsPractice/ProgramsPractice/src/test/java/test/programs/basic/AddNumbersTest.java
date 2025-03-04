@@ -9,7 +9,7 @@ public class AddNumbersTest {
 
     @Test
     void testSmallPositiveNumbers(){
-        Assert.assertEquals(addNumbers.add(5, 10),15 );
+        Assert.assertEquals(addNumbers.add(5 , 10),15 );
     }
 
     @Test
