@@ -1,6 +1,7 @@
 package test.programs.basic;
 
-public class AddNumbers {
+public class
+AddNumbers {
 
     // Create a method that accepts two inputs and
     // provide the sum of two values as a result
