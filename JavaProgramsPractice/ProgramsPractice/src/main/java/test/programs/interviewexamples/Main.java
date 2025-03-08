@@ -1,14 +1,17 @@
 package test.programs.interviewexamples;
 
+import test.programs.classandobjects.BankDemo;
+
 public class Main {
     public static void main(String[] args) {
-        Areas areaOfCircle = new Areas(10);
-        double result = areaOfCircle.areaOfCircle();
-        System.out.println(result);
+        BankDemo hdfc = new BankDemo();
+        hdfc.setAccountName("Vamsi Krishna");
+        hdfc.setAccountNo(323234892);
+        hdfc.setAccountBalance(432323232);
+        hdfc.setAccountActive(true);
 
-        Areas areaOfRect1 = new Areas(7, 4);
-        int rectangle = areaOfRect1.areaOfRectangle();
-        System.out.println(rectangle);
+        System.out.println(hdfc.getAccountName());
+
 
     }
 }
