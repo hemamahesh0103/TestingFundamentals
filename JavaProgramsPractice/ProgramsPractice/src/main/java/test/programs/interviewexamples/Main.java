@@ -1,9 +1,6 @@
 package test.programs.interviewexamples;
 
-import test.programs.classandobjects.BankDemo;
-import test.programs.classandobjects.Persons;
-import test.programs.classandobjects.cars;
-import test.programs.classandobjects.dog;
+import test.programs.classandobjects.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,10 +31,26 @@ public class Main {
         c.setPrice(200000);
         c.setModel("3 series");
         c.setColour("white");
-        System.out.println(c.getName());
+
+       /* System.out.println(c.getName());
          System.out.println(c.getPrice());
         System.out.println(c.getModel());
-        System.out.println(c.getColour());
+        System.out.println(c.getColour()); */
+
+        Phone ph = new Phone();
+        ph.setApp("Whatsapp");
+        ph.setCallaccept("Accepted Call");
+        ph.setCalldecline("Decline Call");
+        ph.setPhonemodel("16");
+        ph.setPhonepwd(261998);
+        ph.setSounddown("Decrease the volume");
+        ph.setSoundup("Increase the volume");
+        ph.setPhoneno(848589656);
+        ph.setPhonename("I Phone");
+
+        System.out.println(ph.getPhonename());
+
+
 
 
 
