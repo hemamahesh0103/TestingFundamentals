@@ -1,16 +1,29 @@
 package test.programs.classandobjects;
 
-public class cars{
+public class Cars{
     private String name;
     private double price;
+    private String model;
+    private String colour;
+
+    public Cars() {
+    }
+
+    public Cars(String name, double price, String model, String colour) {
+        this.name = name;
+        this.price = price;
+        this.model = model;
+        this.colour = colour;
+    }
+
+
 
     public double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
+
+    public void setPrice(double price) { this.price = price; }
 
     public String getModel() {
         return model;
@@ -19,9 +32,6 @@ public class cars{
     public void setModel(String model) {
         this.model = model;
     }
-
-    private String model;
-    private String colour;
 
     public String getColour() {
         return colour;

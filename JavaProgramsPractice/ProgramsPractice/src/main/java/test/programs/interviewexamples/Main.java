@@ -20,13 +20,13 @@ public class Main {
        // System.out.println(p.getAge());
         // System.out.println(p.getName());
 
-        dog d = new dog();
+        Dog d = new Dog();
         d.setName("German Shepherd");
         d.setPrice(25000);
        // System.out.println(d.getName());
        // System.out.println(d.getPrice());
 
-        cars c = new cars();
+        Cars c = new Cars();
         c.setName("BMW");
         c.setPrice(200000);
         c.setModel("3 series");

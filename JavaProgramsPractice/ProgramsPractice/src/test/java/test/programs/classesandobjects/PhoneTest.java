@@ -10,8 +10,11 @@ public class PhoneTest {
 
 
     @Test
-
-    public double testPhone() { Assert.assertEquals(p.getPhoneno(898585));}
+    public void testPhone() {
+        p.setPhoneno(8989.89);
+        System.out.println(p.getPhoneno());
+        Assert.assertEquals(p.getPhoneno(), 8989.89);
+    }
 
 
 

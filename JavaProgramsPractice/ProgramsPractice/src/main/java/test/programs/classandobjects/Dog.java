@@ -1,6 +1,6 @@
 package test.programs.classandobjects;
 
-public class dog {
+public class Dog {
     private String name;
     private double price;
 
