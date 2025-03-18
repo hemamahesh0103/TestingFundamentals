@@ -1,0 +1,11 @@
+Hema as an Example:
+a student
+a friend
+a wife
+a daughter
+a best friend
+
+
+Two Types:
+1. Static or Compile Time Polymorphism => method overloading
+2. Dynamic or Run Time Polymorphism => method overriding

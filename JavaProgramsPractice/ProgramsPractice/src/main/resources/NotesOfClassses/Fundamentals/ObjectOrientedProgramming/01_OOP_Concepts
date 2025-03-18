@@ -1,0 +1,28 @@
+1. Encapsulation
+2. Inheritance
+3. Abstraction
+4. Polymorphism
+5. Class
+6. Objects
+
+Class and Objects:
+> A class is a template or blue print that helps to create instances/objects
+of that blueprint of class.
+
+> An Object is an instantiation of the class.
+
+En-capsule:
+Capsule: we created a boundary for the medicine.
+
+Encapsulation: we are en-capsulating the data
+> There should not be no loss of data.
+> The data is always kept in one capsule.
+In programming languages who will store the data?
+variables
+
+Encapsulation Defines the following:
+1. How you are going to define variables.
+2. How you are utilizing variables to transfer data.
+3. How you are combine the different variables.
+
+Book Definition: Binding of fields and methods in a single class.
