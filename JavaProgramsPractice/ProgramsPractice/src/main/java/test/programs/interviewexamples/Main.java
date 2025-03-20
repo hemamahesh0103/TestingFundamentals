@@ -1,6 +1,12 @@
 package test.programs.interviewexamples;
 
+import example.polymporphism.Employee;
+import example.polymporphism.Fruits;
+import example.polymporphism.Maths;
+import example.polymporphism.StaticBlocks;
 import test.programs.classandobjects.*;
+
+import static example.polymporphism.StaticBlocks.a;
 
 public class Main {
     public static void main(String[] args) {
@@ -48,7 +54,27 @@ public class Main {
         ph.setPhoneno(848589656);
         ph.setPhonename("I Phone");
 
-        System.out.println(ph.getPhonename());
+       // System.out.println(ph.getPhonename());
+
+
+      //  Fruits f = new Fruits();
+     //   f.taste();
+        Employee emp1 = new Employee("hema");
+        Employee emp2 = new Employee("kavya");
+
+        Employee.companyName = "e solutions";
+
+     //   emp1.display();
+       // emp2.display();
+
+      //  System.out.println(Maths.add(10,20));
+
+        System.out.println(StaticBlocks.a);
+        System.out.println(StaticBlocks.b);
+
+
+
+
 
 
 
