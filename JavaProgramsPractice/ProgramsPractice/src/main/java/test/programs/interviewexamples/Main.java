@@ -4,6 +4,8 @@ import example.polymporphism.Employee;
 import example.polymporphism.Fruits;
 import example.polymporphism.Maths;
 import example.polymporphism.StaticBlocks;
+import inheritance.Intern;
+import inheritance.Student;
 import test.programs.classandobjects.*;
 
 import static example.polymporphism.StaticBlocks.a;
@@ -69,8 +71,13 @@ public class Main {
 
       //  System.out.println(Maths.add(10,20));
 
-        System.out.println(StaticBlocks.a);
-        System.out.println(StaticBlocks.b);
+      //  System.out.println(StaticBlocks.a);
+        //System.out.println(StaticBlocks.b);
+
+        Student s = new Student();
+        Intern i=  new Intern();
+
+        System.out.println("Grade : " + s.grade + "\nIntern : " + s.benefit + "\n Company :" +i.company);
 
 
 
