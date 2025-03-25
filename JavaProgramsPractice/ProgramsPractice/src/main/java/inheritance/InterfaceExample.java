@@ -2,12 +2,12 @@ package inheritance;
 //Interface example
 // used interface keyword to define the vehicle
 //created method start and stop
- interface Vehicle{
+ interface Vehicle1{
     void stop ();
       void start();
  }
     //created child class bus which implements vehicle
- class Bus implements Vehicle{
+ class Bus implements Vehicle1{
      // passing strings to print output as bus is starting
     public void start(){
          System.out.println("bus is starting");
@@ -24,7 +24,7 @@ package inheritance;
 
 public class InterfaceExample {
     public static void main (String args[]){    //main method
-        Vehicle v = new Bus(); //object creation
+        Vehicle1 v = new Bus(); //object creation
         v.start();
         v.stop();
 
