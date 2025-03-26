@@ -1,0 +1,48 @@
+package example.polymporphism;
+
+class Person1{
+    void role(){
+        System.out.println("I am a Person");
+    }
+}
+
+class Father extends Person1{
+    void role(){
+        System.out.println("I am a Father and i have 2 kids");
+    }
+}
+
+class Mother extends Father{
+    void role1(){
+        System.out.println("I am the mother of those 2 kids");
+    }
+
+}
+
+ class Sister extends Father{
+    void role2(){
+        System.out.println("i am the elder one");
+    }
+}
+
+class Brother extends Mother {
+    void role3(){
+        System.out.println("I am the younger one");
+    }
+}
+public class Family {
+    public static void main(String[]args){
+        Person1 p = new Father();
+        Mother m= new Mother();
+        Sister s = new Sister();
+        Brother b= new Brother();
+        p.role();
+        m.role1();
+        s.role2();
+        b.role3();
+
+
+    }
+
+
+}
